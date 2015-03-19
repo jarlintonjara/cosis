@@ -8,13 +8,11 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/css/login.css" rel="stylesheet">
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
 <div class="login-body">
     <article class="container-login center-block">
 		<section>
@@ -52,10 +50,9 @@
 	</article>
 </div>
 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
   </body>
 </html>
