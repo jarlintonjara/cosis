@@ -1,0 +1,52 @@
+[33mcommit 14b7fac49864bcad13a7dfde3a3ef91e8db8ed2e[m
+Author: alexis <alejarahi@gmail.com>
+Date:   Thu Mar 19 15:51:49 2015 -0500
+
+    Interfas : Login
+
+[1mdiff --git a/application/config/routes.php b/application/config/routes.php[m
+[1mindex 5f9a583..9d98339 100644[m
+[1m--- a/application/config/routes.php[m
+[1m+++ b/application/config/routes.php[m
+[36m@@ -38,7 +38,7 @@[m
+ |[m
+ */[m
+ [m
+[31m-$route['default_controller'] = "welcome";[m
+[32m+[m[32m$route['default_controller'] = "login";[m
+ $route['404_override'] = '';[m
+ [m
+ [m
+[1mdiff --git a/application/modules/login/views/index.php b/application/modules/login/views/index.php[m
+[1mindex aa310d2..8af55d1 100644[m
+[1m--- a/application/modules/login/views/index.php[m
+[1m+++ b/application/modules/login/views/index.php[m
+[36m@@ -8,13 +8,11 @@[m
+     <title>Bootstrap 101 Template</title>[m
+ [m
+     <!-- Bootstrap -->[m
+[31m-    <link href="css/bootstrap.min.css" rel="stylesheet">[m
+[31m-    <link href="css/bootstrap.min.css" rel="stylesheet">[m
+[32m+[m[32m    <link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">[m
+[32m+[m[32m    <link href="<?php echo base_url()?>assets/css/login.css" rel="stylesheet">[m
+ [m
+   </head>[m
+   <body>[m
+[31m-    <h1>Hello, world!</h1>[m
+[31m-[m
+ <div class="login-body">[m
+     <article class="container-login center-block">[m
+ 		<section>[m
+[36m@@ -52,10 +50,9 @@[m
+ 	</article>[m
+ </div>[m
+ [m
+[31m-[m
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->[m
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>[m
+     <!-- Include all compiled plugins (below), or include individual files as needed -->[m
+[31m-    <script src="js/bootstrap.min.js"></script>[m
+[32m+[m[32m    <script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>[m
+   </body>[m
+ </html>[m
+\ No newline at end of file[m
