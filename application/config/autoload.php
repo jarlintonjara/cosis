@@ -112,5 +112,8 @@ $autoload['language'] = array();
 $autoload['model'] = array();
 
 
+$config['modules_locations'] = array(
+    APPPATH.'modules/' => '../modules/',
+);
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
