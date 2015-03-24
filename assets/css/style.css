@@ -129,15 +129,15 @@ a:hover {
 .row:after { clear:both; }
 [class*="span"] {
   float:left;
-  margin-left:10px;
+  padding:3px;
 }
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width:970px; }
 .span7 { width:970px; }
 .span6 { width:830px; }
-.span5 { width:690px; }
+.span5 { width:550px; }
 .span4 { width:550px; }
-.span3 { width:410px; }
-.span2 { width:270px; }
+.span3 { width:320px; }
+.span2 { width:230px; }
 .span1 { width:130px; }
 .offset7 { margin-left:990px; }
 .offset6 { margin-left:850px; }
@@ -482,17 +482,17 @@ label {
 }
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   display:inline-block;
-  height:20px;
+  height:15px;
   padding:4px 6px;
   margin-bottom:9px;
   font-size:14px;
-  line-height:20px;
+  line-height:15px;
   color:#555555;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
 }
-input, textarea { width:210px; }
+input, textarea { width:160px; }
 textarea { height:auto; }
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   background-color:#ffffff;
@@ -703,6 +703,7 @@ input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, selec
   margin-bottom:5px;
   font-size:0;
   white-space:nowrap;
+    float: right;
 }
 .input-append input, .input-append select, .input-append .uneditable-input, .input-prepend input, .input-prepend select, .input-prepend .uneditable-input {
   position:relative;
@@ -742,9 +743,10 @@ input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, selec
 }
 .input-prepend .add-on, .input-prepend .btn { margin-right:-1px; }
 .input-prepend .add-on:first-child, .input-prepend .btn:first-child {
-  -webkit-border-radius:3px 0 0 3px;
-  -moz-border-radius:3px 0 0 3px;
-  border-radius:3px 0 0 3px;
+  -webkit-border-radius:13px 0 0 3px;
+  -moz-border-radius:13px 0 0 3px;
+  border-radius:13px 0 0 3px;
+    height: 15px;
 }
 .input-append input, .input-append select, .input-append .uneditable-input {
   -webkit-border-radius:3px 0 0 3px;
@@ -3607,10 +3609,9 @@ h2 span {
   }
 .aqua-panel-content {
   border:1px solid #bebebe;
-  border-top:none;
   padding:10px;
   background:#ffffff;
-  display:block;
+  display: flex;
 }
 .aqua-panel-header {
   background-color:#efefef;
@@ -3822,4 +3823,8 @@ h2 span {
 
 .cajonuser{
   height: 30px; 
+}
+
+.large{
+  width:400px;
 }

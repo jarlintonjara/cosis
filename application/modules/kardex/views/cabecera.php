@@ -34,7 +34,7 @@
         <header>
             <div id="aqua-header">
                 <div class="aqua-container">
-                    <a href="index.html" class="aqua-well-mini">
+                    <a href="#" class="aqua-well-mini">
                         <h1 class="aqua-slogan">COSYS</h1>
                         <h2 class="aqua-slogan"><i>Sistema de contabilidad de costos</i></h2>
                     </a>
@@ -88,13 +88,13 @@
                         </a>
                         <ul id="yw3" class="dropdown-menu">
                           <li>
-                            <a tabindex="-1" href="user/preferences/id/1.html">
+                            <a tabindex="-1" href="http://localhost/cosis/index.php/kardex/index/ingreso">
                               <i class="icon-edit icon-margin">
                               </i> Ingreso
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="user/admin.html">
+                            <a tabindex="-1" href="http://localhost/cosis/index.php/kardex/index/salida">
                               <i class="icon-cog icon-margin"></i> Salida
                             </a>
                           </li>
