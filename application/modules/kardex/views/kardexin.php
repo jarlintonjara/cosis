@@ -14,12 +14,19 @@
 					</div>
 				</div>
 
-				<div class="span5 inputlarge">
+				<div class="span4 inputlarge">
 					<div class="input-prepend">
 						<span class="add-on">
 							<span class=""><b>Razon Social</b></span>
 						</span>
-						<input name="Form[prepend]" id="Form_prepend" class="large" type="text">
+						<select name="Form[dropdown]" id="Form_dropdown" style=" width: 310px;">
+							<option value="0">Something ...</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
 					</div>
 				</div>
 
@@ -55,7 +62,14 @@
 						<span class="add-on">
 							<span class=""><b>Tipo</b></span>
 						</span>
-						<input name="Form[prepend]" id="Form_prepend" type="text">
+						<select name="Form[dropdown]" id="Form_dropdown">
+							<option value="0">Something ...</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
 					</div>
 				</div>
 
@@ -73,14 +87,21 @@
 						<span class="add-on">
 							<span class=""><b>U. Medida</b></span>
 						</span>
-						<input name="Form[prepend]" id="Form_prepend" type="text">
+						<select name="Form[dropdown]" id="Form_dropdown">
+							<option value="0">Something ...</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
 					</div>
 				</div>
 
 				<div class="span2 inputcabecera">
 					<div class="input-prepend">
 						<span class="add-on">
-							<span class=""><b>Met. Evaluación</b></span>
+							<span class=""><b>M.Eva</b></span>
 						</span>
 						<select name="Form[dropdown]" id="Form_dropdown">
 							<option value="0">Something ...</option>

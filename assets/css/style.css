@@ -132,10 +132,10 @@ a:hover {
   padding:3px;
 }
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width:970px; }
-.span7 { width:970px; }
+.span7 { width:882px; }
 .span6 { width:830px; }
 .span5 { width:550px; }
-.span4 { width:550px; }
+.span4 { width:410px; }
 .span3 { width:320px; }
 .span2 { width:230px; }
 .span1 { width:130px; }
@@ -522,12 +522,12 @@ input[type="radio"], input[type="checkbox"] {
 }
 input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] { width:auto; }
 select, input[type="file"] {
-  height:30px;
+  height:25px;
   *margin-top:4px;
   line-height:30px;
 }
 select {
-  width:220px;
+  width:174px;
   border:1px solid #bbbbbb;
   background-color:#ffffff;
 }
@@ -3826,5 +3826,5 @@ h2 span {
 }
 
 .large{
-  width:400px;
+  width:290px;
 }
