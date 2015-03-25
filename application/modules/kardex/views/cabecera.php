@@ -98,10 +98,30 @@
                               <i class="icon-cog icon-margin"></i> Salida
                             </a>
                           </li>
-                          <li>
-                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detalle"><i class="icon-cog icon-margin"></i> Detalle
+
+
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">
+                                <i class="icon-share-alt icon-margin">
+                                    
+                                </i> Detalles
                             </a>
-                          </li>
+                            <ul id="yw5" class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detallein">
+                                        <i class="icon-share-alt icon-margin"></i> Ingreso
+                                    </a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detalleou">
+                                        <i class="icon-share-alt icon-margin">
+                                            
+                                        </i> Salida
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
                         </ul>
                       </li>
 

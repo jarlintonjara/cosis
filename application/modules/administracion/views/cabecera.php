@@ -34,7 +34,7 @@
         <header>
             <div id="aqua-header">
                 <div class="aqua-container">
-                    <a href="index.html" class="aqua-well-mini">
+                    <a href="#" class="aqua-well-mini">
                         <h1 class="aqua-slogan">COSYS</h1>
                         <h2 class="aqua-slogan"><i>Sistema de contabilidad de costos</i></h2>
                     </a>
@@ -75,7 +75,7 @@
 
                     <ul id="yw2" class="nav">
                       <li class="active">
-                        <a href="index.html">
+                        <a href="<?php echo base_url();?>index.php/panel/index">
                           <i class="icon-home icon-white"></i> 
                         </a>
                       </li>
@@ -88,39 +88,90 @@
                         </a>
                         <ul id="yw3" class="dropdown-menu">
                           <li>
-                            <a tabindex="-1" href="user/preferences/id/1.html">
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/ingreso">
                               <i class="icon-edit icon-margin">
                               </i> Ingreso
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="user/admin.html">
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/salida">
                               <i class="icon-cog icon-margin"></i> Salida
                             </a>
                           </li>
-                          <li>
-                            <a tabindex="-1" href="user/admin.html"><i class="icon-cog icon-margin"></i> Detalle
+
+
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">
+                                <i class="icon-share-alt icon-margin">
+                                    
+                                </i> Detalles
                             </a>
-                          </li>
+                            <ul id="yw5" class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detallein">
+                                        <i class="icon-share-alt icon-margin"></i> Ingreso
+                                    </a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detalleou">
+                                        <i class="icon-share-alt icon-margin">
+                                            
+                                        </i> Salida
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
                         </ul>
                       </li>
 
                       <li>
-                        <a href="site/forms.html">
+                        <a href="<?php echo base_url();?>index.php/produccion/index">
                           <i class="icon-list icon-white icon-margin"></i> Producción
                         </a>
                       </li>
+                 <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          <i class="icon-play-circle icon-white icon-margin"></i> Administración 
+                          <span class="caret">
+                          </span>
+                        </a>
+                        <ul id="yw3" class="dropdown-menu">
+                          <li>
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/administracion/index/usuarios">
+                              <i class="icon-edit icon-margin"></i> Usuarios
+                            </a>
+                          </li>
+                          <li>
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/administracion/index/clientes">
+                              <i class="icon-cog icon-margin"></i> Clientes
+                            </a>
+                          </li>
+                          <li>
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/administracion/index/proveedores">
+                              <i class="icon-cog icon-margin"></i> Proveedores
+                            </a>
+                          </li>
+                          <li>
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/administracion/index/productos">
+                              <i class="icon-cog icon-margin"></i> Productos
+                            </a>
+                          </li>
+                          <li>
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/administracion/index/materiales">
+                              <i class="icon-cog icon-margin"></i> Materiales
+                            </a>
+                          </li>
+
+                        </ul>
+                      </li>
+
                       <li>
-                        <a href="site/charts.html">
-                          <i class="icon-pie-chart icon-white icon-margin"></i> Administración
+                        <a href="<?php echo base_url();?>index.php/reporte/index"><i class="icon-th icon-white icon-margin"></i> Reporte
                         </a>
                       </li>
                       <li>
-                        <a href="site/grid.html"><i class="icon-th icon-white icon-margin"></i> Reporte
-                        </a>
-                      </li>
-                      <li>
-                        <a href="site/icons.html"><i class="icon-picture icon-white icon-margin"></i> Otros
+                        <a href="<?php echo base_url();?>"><i class="icon-picture icon-white icon-margin"></i> Otros
                         </a>
                       </li>
                       <li onclick="guiders.show(&quot;1&quot;)">
@@ -133,6 +184,9 @@
             </div>
         </header>
         <div id="yw6"></div>
+        
+
+        
                     <div id="breadcrumbs">
-                            <ul class="breadcrumbs breadcrumb"><li><a href="index.html">Home</a><span class="divider">/</span></li><li class="active">Dashboard</li></ul><!-- breadcrumbs -->
+                            <ul class="breadcrumbs breadcrumb"><li><a href="<?php echo base_url();?>index.php/panel/index">Home</a><span class="divider">/</span></li><li class="active">Kardex</li></ul><!-- breadcrumbs -->
                     </div>

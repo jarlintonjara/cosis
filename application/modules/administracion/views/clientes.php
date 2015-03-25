@@ -1,9 +1,43 @@
 <?php echo $this->load->view('cabecera'); ?>
+<div class="aqua-container">
+	<div class="span1">
+    	<a href="#" class="aqua-shortcut text-align-center search-button">
+        	<span class="modernpics newline">s</span>
+        	<span class="label label-info">Advanced Search</span>
+    	</a>
+	</div>
+		<div class="span1">
+		    <a href="index.html" class="aqua-shortcut text-align-center">
+		        <span class="modernpics newline">4</span>
+		        <span class="label label-info">List User</span>
+		    </a>
+		</div>
+		<div class="span1">
+		    <a href="crear" class="aqua-shortcut text-align-center">
+		        <span class="modernpics newline">V</span>
+		        <span class="label label-info">Create User</span>
+		    </a>
+		</div>
+		<div class="clear"></div>
+		<div class="span7 search-panel" style="display:none">
+		    <div class="aqua-panel">
+		        <div class="aqua-panel-header">
+		            <i class="modernpics icons32">r</i><span class="panel-divider"></span>
+		            <h2>Manage Users<span></span></h2>
+		            <div class="aqua-panel-tabs-icons pull-right">
+		                <a href="#" class="minimize">--</a>
+		                <a href="#" class="modernpics maximize">v</a>
+		            </div>
+		        </div>
+		</div>
+	</div>
+</div>
+
 
     <div class="aqua-panel">
         <div class="aqua-panel-header">
             <i class="modernpics icons32">r</i><span class="panel-divider"></span>
-            <h2>Listado de Ingresos<span></span></h2>
+            <h2>Listado de Usuarios<span></span></h2>
             <div class="aqua-panel-tabs-icons pull-right">
                 <a href="#" class="minimize">--</a>
                 <a href="#" class="modernpics maximize">v</a>
@@ -134,6 +168,7 @@
          </div>
         </div>
     </div>
+
 
 
 <?php echo $this->load->view('pie'); ?>

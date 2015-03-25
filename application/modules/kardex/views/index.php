@@ -6,7 +6,7 @@
                                     <span class="aqua-shortcut text-align-center">
                                         <a href="<?php echo base_url();?>index.php/kardex/index/detalle">
                                         <span class="modernpics newline">5</span>
-                                        <span class="label label-info">Detalle</span>
+                                        <span class="label label-success">Detalle</span>
                                         </a>
                                     </span>
                                 </div>
@@ -14,7 +14,7 @@
                                     <span class="aqua-shortcut text-align-center">
                                         <a href="<?php echo base_url();?>index.php/kardex/index/salida">
                                         <span class="modernpics newline">]</span>
-                                        <span class="label label-warning">Salida</span>
+                                        <span class="label label-success">Salida</span>
                                         </a>
                                     </span>
                                 </div>
@@ -22,7 +22,7 @@
                                     <span class="aqua-shortcut text-align-center">
                                         <a href="<?php echo base_url();?>index.php/kardex/index/ingreso">
                                         <span class="modernpics newline">[</span>
-                                        <span class="label label-important">Ingreso</span>
+                                        <span class="label label-success">Ingreso</span>
                                         </a>
                                     </span>
                                 </div>

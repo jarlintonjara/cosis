@@ -8,34 +8,31 @@ class Index extends MX_Controller
     {
         
         parent::__construct();
-        //$this->load->model('index_model');
         
     }
     
     public function index()
     {
-        
-        //$data['users'] = $this->data_users();
         $this->load->view('index');
-            
     }
-    
-    /*public function data_users()
+    public function usuarios()
     {
-        
-        return $this->index_model->get_users();
-        
+        $this->load->view('usuarios');
     }
-    
-    public function saludo($saludo)
+    public function clientes()
     {
-        
-        echo 'esto es un '. $saludo;
-        
-    }*/
-    
+        $this->load->view('clientes');
+    }
+    public function proveedores()
+    {
+        $this->load->view('proveedores');
+    }
+    public function productos()
+    {
+        $this->load->view('productos');
+    }
+    public function materiales()
+    {
+        $this->load->view('materiales');
+    }
 }
-
-/*
-*end modules/login/controllers/index.php
-*/
