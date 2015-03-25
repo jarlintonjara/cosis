@@ -12,7 +12,7 @@
 <script type="text/javascript" src="<?php echo base_url()?>assets/assets/340266a5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url()?>assets/assets/a6a5c5a7/guiders-1.2.8.js"></script>
 <script type="text/javascript" src="<?php echo base_url()?>assets/assets/18cc69c8/js/prettify.js"></script>
-<title>AquaBlue - Admin Theme</title>
+<title>Sistema|Contabilidad de costos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -34,7 +34,7 @@
         <header>
             <div id="aqua-header">
                 <div class="aqua-container">
-                    <a href="index.html" class="aqua-well-mini">
+                    <a href="#" class="aqua-well-mini">
                         <h1 class="aqua-slogan">COSYS</h1>
                         <h2 class="aqua-slogan"><i>Sistema de contabilidad de costos</i></h2>
                     </a>
@@ -75,7 +75,7 @@
 
                     <ul id="yw2" class="nav">
                       <li class="active">
-                        <a href="index.html">
+                        <a href="<?php echo base_url();?>index.php/panel/index">
                           <i class="icon-home icon-white"></i> 
                         </a>
                       </li>
@@ -88,39 +88,39 @@
                         </a>
                         <ul id="yw3" class="dropdown-menu">
                           <li>
-                            <a tabindex="-1" href="user/preferences/id/1.html">
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/ingreso">
                               <i class="icon-edit icon-margin">
                               </i> Ingreso
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="user/admin.html">
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/salida">
                               <i class="icon-cog icon-margin"></i> Salida
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="user/admin.html"><i class="icon-cog icon-margin"></i> Detalle
+                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detalle"><i class="icon-cog icon-margin"></i> Detalle
                             </a>
                           </li>
                         </ul>
                       </li>
 
                       <li>
-                        <a href="site/forms.html">
+                        <a href="<?php echo base_url();?>index.php/produccion/index">
                           <i class="icon-list icon-white icon-margin"></i> Producción
                         </a>
                       </li>
                       <li>
-                        <a href="site/charts.html">
+                        <a href="<?php echo base_url();?>index.php/administracion/index">
                           <i class="icon-pie-chart icon-white icon-margin"></i> Administración
                         </a>
                       </li>
                       <li>
-                        <a href="site/grid.html"><i class="icon-th icon-white icon-margin"></i> Reporte
+                        <a href="<?php echo base_url();?>index.php/reporte/index"><i class="icon-th icon-white icon-margin"></i> Reporte
                         </a>
                       </li>
                       <li>
-                        <a href="site/icons.html"><i class="icon-picture icon-white icon-margin"></i> Otros
+                        <a href="<?php echo base_url();?>"><i class="icon-picture icon-white icon-margin"></i> Otros
                         </a>
                       </li>
                       <li onclick="guiders.show(&quot;1&quot;)">
@@ -133,6 +133,9 @@
             </div>
         </header>
         <div id="yw6"></div>
+        
+
+        
                     <div id="breadcrumbs">
-                            <ul class="breadcrumbs breadcrumb"><li><a href="index.html">Home</a><span class="divider">/</span></li><li class="active">Dashboard</li></ul><!-- breadcrumbs -->
+                            <ul class="breadcrumbs breadcrumb"><li><a href="<?php echo base_url();?>index.php/panel/index">Home</a><span class="divider">/</span></li><li class="active">Kardex</li></ul><!-- breadcrumbs -->
                     </div>

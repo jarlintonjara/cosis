@@ -27,11 +27,15 @@ class Index extends MX_Controller
         $this->load->view('kardexou');
     }
 
-    public function detalle()
+    public function detallein()
     {
-        $this->load->view('kardexdet');
+        $this->load->view('detallein');
     }
-    
+
+    public function detalleou()
+    {
+        $this->load->view('detalleou');
+    }
     
     
 }
