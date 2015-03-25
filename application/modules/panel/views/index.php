@@ -1,7 +1,6 @@
 <?php echo $this->load->view('cabecera'); ?>
 
 					<div  class="cuadrobotones">
-
                                 <div class="span1 botones">
                                     <span class="aqua-shortcut text-align-center">
                                         <span class="modernpics newline">5</span>
@@ -24,9 +23,9 @@
                                     <span class="aqua-shortcut text-align-center">
                                         <span class="modernpics newline">3</span>
                                         <span class="label label-important">Kardex</span>
+                                        <a href="asdas"></a>
                                     </span>
                                 </div>
-
                     </div>
 
 <?php echo $this->load->view('pie'); ?>

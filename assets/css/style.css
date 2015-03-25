@@ -130,6 +130,7 @@ a:hover {
 [class*="span"] {
   float:left;
   padding:3px;
+  margin-left: 5px;
 }
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width:970px; }
 .span7 { width:882px; }
@@ -1379,6 +1380,7 @@ table .span24 {
   -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.05);
   -moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.05);
   box-shadow:inset 0 1px 1px rgba(0,0,0,0.05);
+    padding-top: 0px;
 }
 .well blockquote {
   border-color:#dddddd;
