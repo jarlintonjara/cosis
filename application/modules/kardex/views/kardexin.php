@@ -95,7 +95,6 @@
 						</select>
 					</div>
 				</div>
-
 				<div class="span2 inputcabecera">
 					<div class="input-prepend">
 						<span class="add-on">
@@ -113,7 +112,6 @@
 				</div>
         </div>
     </div>
-
         <div class="aqua-panel-content">
              <div id="content">
 

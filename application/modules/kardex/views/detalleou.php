@@ -82,7 +82,6 @@
                     <td>12345678</td>
                     <td>ratamiette@gmail.com</td>
                     <td>
-                        
                     </td>
                     <td class="button-column">
                         <a class="view" title="View" rel="tooltip" href="161.html">

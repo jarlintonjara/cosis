@@ -13,10 +13,11 @@ class Usuarios extends MX_Controller
     
     public function index()
     {
-        $this->load->view('clientes');
+        $this->load->view('usuarios');
     }
-    public function usuarios()
+    public function crear()
     {
-        $this->load->view('clientes/crear');
+        $this->load->view('usuarios/crear');
     }
+    
 }
