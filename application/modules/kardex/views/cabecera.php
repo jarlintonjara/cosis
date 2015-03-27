@@ -75,7 +75,7 @@
 
                     <ul id="yw2" class="nav">
                       <li class="active">
-                        <a href="<?php echo base_url();?>index.php/panel/index">
+                        <a href="<?php echo base_url();?>panel/index">
                           <i class="icon-home icon-white"></i> 
                         </a>
                       </li>
@@ -88,13 +88,13 @@
                         </a>
                         <ul id="yw3" class="dropdown-menu">
                           <li>
-                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/ingreso">
+                            <a tabindex="-1" href="<?php echo base_url();?>kardex/index/ingreso">
                               <i class="icon-edit icon-margin">
                               </i> Ingreso
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/salida">
+                            <a tabindex="-1" href="<?php echo base_url();?>kardex/index/salida">
                               <i class="icon-cog icon-margin"></i> Salida
                             </a>
                           </li>
@@ -108,12 +108,12 @@
                             </a>
                             <ul id="yw5" class="dropdown-menu">
                                 <li>
-                                    <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detallein">
+                                    <a tabindex="-1" href="<?php echo base_url();?>kardex/index/detallein">
                                         <i class="icon-share-alt icon-margin"></i> Ingreso
                                     </a>
                                 </li>
                                 <li>
-                                    <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detalleou">
+                                    <a tabindex="-1" href="<?php echo base_url();?>kardex/index/detalleou">
                                         <i class="icon-share-alt icon-margin">
                                             
                                         </i> Salida
@@ -126,17 +126,17 @@
                       </li>
 
                       <li>
-                        <a href="<?php echo base_url();?>index.php/produccion/index">
+                        <a href="<?php echo base_url();?>produccion/index">
                           <i class="icon-list icon-white icon-margin"></i> Producción
                         </a>
                       </li>
                       <li>
-                        <a href="<?php echo base_url();?>index.php/administracion/index">
+                        <a href="<?php echo base_url();?>administracion/index">
                           <i class="icon-pie-chart icon-white icon-margin"></i> Administración
                         </a>
                       </li>
                       <li>
-                        <a href="<?php echo base_url();?>index.php/reporte/index"><i class="icon-th icon-white icon-margin"></i> Reporte
+                        <a href="<?php echo base_url();?>reporte/index"><i class="icon-th icon-white icon-margin"></i> Reporte
                         </a>
                       </li>
                       <li>
@@ -157,5 +157,5 @@
 
         
                     <div id="breadcrumbs">
-                            <ul class="breadcrumbs breadcrumb"><li><a href="<?php echo base_url();?>index.php/panel/index">Home</a><span class="divider">/</span></li><li class="active">Kardex</li></ul><!-- breadcrumbs -->
+                            <ul class="breadcrumbs breadcrumb"><li><a href="<?php echo base_url();?>panel/index">Home</a><span class="divider">/</span></li><li class="active">Kardex</li></ul><!-- breadcrumbs -->
                     </div>

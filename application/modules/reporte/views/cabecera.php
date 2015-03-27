@@ -6,30 +6,17 @@
 <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assets/a6a5c5a7/guiders-1.2.8.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assets/18cc69c8/css/themes/prettify.css" />
-<script type="text/javascript" src="<?php echo base_url()?>assets/assets/78b1118/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url()?>assets/assets/340266a5/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url()?>assets/assets/a6a5c5a7/guiders-1.2.8.js"></script>
-<script type="text/javascript" src="<?php echo base_url()?>assets/assets/18cc69c8/js/prettify.js"></script>
-<title>Sistema|Contabilidad de costos</title>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assets/a6a5c5a7/guiders-1.2.8.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assets/18cc69c8/css/themes/prettify.css" />
+        <script type="text/javascript" src="<?php echo base_url()?>assets/assets/78b1118/jquery.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url()?>assets/assets/340266a5/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url()?>assets/assets/a6a5c5a7/guiders-1.2.8.js"></script>
+        <script type="text/javascript" src="<?php echo base_url()?>assets/assets/18cc69c8/js/prettify.js"></script>
+        <title>Sistema|Contabilidad de costos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-                        <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34607745-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-    </head>
+</head>
     <body>
         <header>
             <div id="aqua-header">
@@ -75,7 +62,7 @@
 
                     <ul id="yw2" class="nav">
                       <li class="active">
-                        <a href="<?php echo base_url();?>index.php/panel/index">
+                        <a href="<?php echo base_url();?>panel/index">
                           <i class="icon-home icon-white"></i> 
                         </a>
                       </li>
@@ -88,35 +75,35 @@
                         </a>
                         <ul id="yw3" class="dropdown-menu">
                           <li>
-                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/ingreso">
+                            <a tabindex="-1" href="<?php echo base_url();?>kardex/index/ingreso">
                               <i class="icon-edit icon-margin">
                               </i> Ingreso
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/salida">
+                            <a tabindex="-1" href="<?php echo base_url();?>kardex/index/salida">
                               <i class="icon-cog icon-margin"></i> Salida
                             </a>
                           </li>
                           <li>
-                            <a tabindex="-1" href="<?php echo base_url();?>index.php/kardex/index/detalle"><i class="icon-cog icon-margin"></i> Detalle
+                            <a tabindex="-1" href="<?php echo base_url();?>kardex/index/detalle"><i class="icon-cog icon-margin"></i> Detalle
                             </a>
                           </li>
                         </ul>
                       </li>
 
                       <li>
-                        <a href="<?php echo base_url();?>index.php/produccion/index">
+                        <a href="<?php echo base_url();?>produccion/index">
                           <i class="icon-list icon-white icon-margin"></i> Producción
                         </a>
                       </li>
                       <li>
-                        <a href="<?php echo base_url();?>index.php/administracion/index">
+                        <a href="<?php echo base_url();?>administracion/index">
                           <i class="icon-pie-chart icon-white icon-margin"></i> Administración
                         </a>
                       </li>
                       <li>
-                        <a href="<?php echo base_url();?>index.php/reporte/index"><i class="icon-th icon-white icon-margin"></i> Reporte
+                        <a href="<?php echo base_url();?>reporte/index"><i class="icon-th icon-white icon-margin"></i> Reporte
                         </a>
                       </li>
                       <li>
@@ -137,5 +124,5 @@
 
         
                     <div id="breadcrumbs">
-                            <ul class="breadcrumbs breadcrumb"><li><a href="<?php echo base_url();?>index.php/panel/index">Home</a><span class="divider">/</span></li><li class="active">Kardex</li></ul><!-- breadcrumbs -->
+                            <ul class="breadcrumbs breadcrumb"><li><a href="<?php echo base_url();?>panel/index">Home</a><span class="divider">/</span></li><li class="active">Kardex</li></ul><!-- breadcrumbs -->
                     </div>

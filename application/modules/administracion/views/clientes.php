@@ -1,7 +1,7 @@
 <?php echo $this->load->view('cabecera'); ?>
 <div class="aqua-container">
         <div class="span1">
-            <a href="<?php echo base_url();?>index.php/administracion/clientes/crear" class="aqua-shortcut text-align-center">
+            <a href="<?php echo base_url();?>administracion/clientes/crear" class="aqua-shortcut text-align-center">
                 <span class="modernpics newline">V</span>
                 <span class="label label-info">Crear Clientes</span>
             </a>

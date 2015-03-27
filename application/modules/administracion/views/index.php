@@ -3,7 +3,7 @@
 					<div  class="cuadrobotones">
                                 <div class="span1 botones">
                                     <span class="aqua-shortcut text-align-center">
-                                        <a href="<?php echo base_url();?>index.php/administracion/index/materiales">
+                                        <a href="<?php echo base_url();?>administracion/index/materiales">
                                         <span class="modernpics newline">i</span>
                                         <span class="label label-success">Materiales</span>
                                         </a>
@@ -11,7 +11,7 @@
                                 </div>
                                 <div class="span1 botones">
                                     <span class="aqua-shortcut text-align-center">
-                                        <a href="<?php echo base_url();?>index.php/administracion/index/productos">
+                                        <a href="<?php echo base_url();?>administracion/index/productos">
                                         <span class="modernpics newline">u</span>
                                         <span class="label label-success">Productos</span>
                                         </a>
@@ -19,7 +19,7 @@
                                 </div>
                                 <div class="span1 botones">
                                     <span class="aqua-shortcut text-align-center">
-                                        <a href="<?php echo base_url();?>index.php/administracion/index/proveedores">
+                                        <a href="<?php echo base_url();?>administracion/index/proveedores">
                                         <span class="modernpics newline">f</span>
                                         <span class="label label-success">Proveedores</span>
                                         </a>
@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="span1 botones">
                                     <span class="aqua-shortcut text-align-center">
-                                        <a href="<?php echo base_url();?>index.php/administracion/index/clientes">
+                                        <a href="<?php echo base_url();?>administracion/index/clientes">
                                         <span class="modernpics newline">k</span>
                                         <span class="label label-success">Clientes</span>
                                         </a>
@@ -35,7 +35,7 @@
                                 </div>
                                 <div class="span1 botones">
                                     <span class="aqua-shortcut text-align-center">
-                                        <a href="<?php echo base_url();?>index.php/administracion/usuarios">
+                                        <a href="<?php echo base_url();?>administracion/usuarios">
                                         <span class="modernpics newline">g</span>
                                         <span class="label label-success">Usuarios</span>
                                         </a>

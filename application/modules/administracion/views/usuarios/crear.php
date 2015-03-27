@@ -2,7 +2,7 @@
 <div class="aqua-container">
 
         <div class="span1">
-            <a href="<?php echo base_url();?>index.php/administracion/usuarios" class="aqua-shortcut text-align-center">
+            <a href="<?php echo base_url();?>administracion/usuarios" class="aqua-shortcut text-align-center">
                 <span class="modernpics newline">(</span>
                 <span class="label label-info">Administrar</span>
             </a>
