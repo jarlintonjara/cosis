@@ -40,10 +40,10 @@
 								</label>
 						</div>
 						<br/>
-						<div class="form-group ">				
+						<div class="form-group ">
 								<button type="submit" name="log-me-in" id="submit" tabindex="5" class="btn btn-lg btn-primary">Entra</button>
 						</div>
-					</form>			
+					</form>
 				</div>
 			</div>
 		</section>

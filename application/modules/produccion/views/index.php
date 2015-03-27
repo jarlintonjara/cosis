@@ -136,4 +136,3 @@
         </div>
         <!-- END MODAL ADDMATERIAL USUARIOS -->
 	</div>
-<?php echo $this->load->view('pie'); ?>

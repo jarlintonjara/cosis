@@ -12,9 +12,6 @@
         <div class="aqua-panel-content">
 
             <div id="user-grid" class="grid-view">
-                <div>
-                    <div class="summary">Displaying 1-2 of 2 results.</div>
-                </div>
                 <div class="clear">
                     <table class="items table table-striped table-bordered table-condensed">
                 <thead>
@@ -84,21 +81,11 @@
                     <td>
                     </td>
                     <td class="button-column">
-                        <a class="view" title="View" rel="tooltip" href="161.html">
+                        <a class="view" title="View" rel="tooltip" href="<?php echo base_url();?>kardex/index/historial">
                             <i class="icon-eye-open">
                                 
                             </i>
                         </a> 
-                        <a class="update" title="Update" rel="tooltip" href="update/161.html">
-                            <i class="icon-pencil">
-                                
-                            </i>
-                        </a> 
-                        <a class="delete" title="Delete" rel="tooltip" href="delete/161.html">
-                            <i class="icon-trash">
-                                
-                            </i>
-                        </a>
                     </td>
                 </tr>
                 <tr class="even">
@@ -110,29 +97,17 @@
                         
                     </td>
                     <td class="button-column">
-                        <a class="view" title="View" rel="tooltip" href="162.html">
+                        <a class="view" title="View" rel="tooltip" href="<?php echo base_url();?>kardex/index/historial">
                             <i class="icon-eye-open"></i>
                         </a> 
-                        <a class="update" title="Update" rel="tooltip" href="update/162.html">
-                            <i class="icon-pencil"></i>
-                        </a> 
-                        <a class="delete" title="Delete" rel="tooltip" href="delete/162.html">
-                            <i class="icon-trash"></i>
-                        </a>
+
                     </td>
                 </tr>
                 </tbody>
                 </table>
-            </div>
-            <div class="clear" style="height: 30px;">
-                <div class="summary">Displaying 1-2 of 2 results.</div>
-            </div>
-            <div class="keys" style="display:none" title="/aquablue/user/admin"><span>161</span>
-                <span>162</span>
             </div>
          </div>
         </div>
     </div>
 
 
-<?php echo $this->load->view('pie'); ?>

@@ -127,4 +127,3 @@
         </div>
     </div>
 
-<?php echo $this->load->view('pie'); ?>

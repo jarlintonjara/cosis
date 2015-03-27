@@ -37,6 +37,11 @@ class Index extends MX_Controller
         $this->load->view('detalleou');
     }
     
-    
+
+    public function historial()
+    {
+        $this->load->view('historial');
+    }
+
 }
 

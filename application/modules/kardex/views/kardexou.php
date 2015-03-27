@@ -193,6 +193,8 @@
 
 			</div>
         </div>
-    
+<div style=" margin-top: 10px; text-align: center;">
+        <a data-dismiss="modal" class="btn btn-primary" href="#">Guardar</a>                    
+        <a data-dismiss="modal" class="btn btn-success" href="#">Cancelar</a>                
+    </div>
 </form>
-<?php echo $this->load->view('pie'); ?>
