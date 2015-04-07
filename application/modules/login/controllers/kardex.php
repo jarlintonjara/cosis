@@ -14,7 +14,7 @@ class Kardex extends MX_Controller {
 	
 	public function index()
 	{
-		if($this->session->userdata('perfil') == FALSE || $this->session->userdata('perfil') == 'kardex')
+		if($this->session->userdata('perfil') == FALSE || $this->session->userdata('perfil') != 'kardex')
 		{
 			redirect(base_url().'login/login');
 		}

@@ -13,7 +13,7 @@ class Produccion extends CI_Controller {
 	
 	public function index()
 	{
-		if($this->session->userdata('perfil') == FALSE)
+		if($this->session->userdata('perfil') == FALSE || $this->session->userdata('perfil') != 'produccion')
 		{
 			redirect(base_url().'login/login');
 		}

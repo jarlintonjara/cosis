@@ -48,7 +48,15 @@
 						<div class="form-group ">
 								<button type="submit" name="log-me-in" id="submit" tabindex="5" class="btn btn-lg btn-primary">Entra</button>
 						</div>
-					</form>			
+					</form>
+					<?php 
+					if($this->session->flashdata('usuario_incorrecto'))
+					{
+					?>
+					<p><?=$this->session->flashdata('usuario_incorrecto')?></p>
+					<?php
+					}
+					?>			
 				</div>
 			</div>
 		</section>

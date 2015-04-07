@@ -25,12 +25,12 @@ class Login extends MX_Controller
 				break;
 			case 'kardex':
 				redirect(base_url().'login/kardex');
-				break;	
+				break;
 			case 'produccion':
 				redirect(base_url().'login/produccion');
 				break;
-			default:		
-				$data['titulo'] = 'Login con roles de usuario en codeigniter';
+			default:
+				$data['titulo'] = 'Login Cosys';
 				$this->load->view('index',$data);
 				break;		
 
