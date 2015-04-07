@@ -1,6 +1,6 @@
 RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ /proyectos/cosys/cosis/index.php/$1 [L]
+    RewriteRule ^(.*)$ /cosis/index.php/$1 [L]
  
-    ErrorDocument 404 /proyectos/cosys/cosis/index.php
+    ErrorDocument 404 /cosis/index.php

@@ -31,23 +31,15 @@
                             <span class="aqua-user-name">John Doe</span>
                         </div>
                         <div class="btn-group">
-                                <a href="user/preferences/id/1.html" class="btn btn-small"><span class="icon-cog"></span></a>
                                 <a href="#" class="btn btn-small dropdown-toggle" data-toggle="dropdown"> 
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu pull-right">
-                                    <li><a href="#" tabindex="-1">Action</a></li>
-                                    <li><a href="#" tabindex="-1">Another action</a></li>
-                                    <li><a href="#" tabindex="-1">Something else</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#" tabindex="-1">Separate link</a></li>
+                                    <li><?=anchor(base_url().'login/logout_ci', 'Cerrar sesión')?></li>
                                 </ul>
-                            </div>
+                        </div>
 
                     </div>
-                  
-
-
                     </div>
                 </div>
             </div>

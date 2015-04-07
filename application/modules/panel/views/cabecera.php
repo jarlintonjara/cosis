@@ -38,24 +38,19 @@
                         <h1 class="aqua-slogan">COSYS</h1>
                         <h2 class="aqua-slogan"><i>Sistema de contabilidad de costos</i></h2>
                     </a>
-                    <div class="aqua-well-mini pull-right cajonuser">
+                    <div class="aqua-well-mini pull-right cajonuser" style="min-width: 90px;">
                         <div class="aqua-user">
 
-                            <span class="aqua-user-name">John Doe</span>
+                            <span class="aqua-user-name"> <?=$this->session->userdata('perfil')?></span>
                         </div>
                         <div class="btn-group">
-                                <a href="user/preferences/id/1.html" class="btn btn-small"><span class="icon-cog"></span></a>
                                 <a href="#" class="btn btn-small dropdown-toggle" data-toggle="dropdown"> 
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu pull-right">
-                                    <li><a href="#" tabindex="-1">Action</a></li>
-                                    <li><a href="#" tabindex="-1">Another action</a></li>
-                                    <li><a href="#" tabindex="-1">Something else</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#" tabindex="-1">Separate link</a></li>
+                                    <li><?=anchor(base_url().'login/logout_ci', 'Cerrar sesión')?></li>
                                 </ul>
-                            </div>
+                        </div>
 
                     </div>
                   
